@@ -15,6 +15,13 @@ Add it as Composer dependency:
 $ composer require mediagone/types-common-symfony
 ```
 
+In order to use "mediagone/types-common" types as controller parameters, you must register the converters in your `services.yaml` by adding the following service declaration:
+```yaml
+services:
+
+    Mediagone\Symfony\Types\Common\Converters\:
+        resource: '../vendor/mediagone/types-common-symfony/src/Converters/'
+```
 
 ## License
 
