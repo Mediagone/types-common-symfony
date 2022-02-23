@@ -24,7 +24,7 @@
         "php": "^7.4|^8.0",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "mediagone/symfony-powerpack": "^0.2.1",
+        "mediagone/symfony-powerpack": "^0.2.1|^0.3",
         "mediagone/types-common": "^0.6.5",
         "sensio/framework-extra-bundle": "^4.0|^5.0|^6.0",
         "symfony/validator": "^4.0|^5.0|^6.0"
